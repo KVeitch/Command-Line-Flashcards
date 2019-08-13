@@ -10,7 +10,7 @@ beforeEach(() => {
   card = new Card({ id: 1, question: 'What allows you to define a set of related information using key-value pairs?', answers: ['object', 'array', 'function'], correctAnswer: 'object' });
   turn = new Turn();
   turn1 = new Turn('object', card)
-  turn2 = new Turn('Goat', card)
+  turn2 = new Turn('array', card)
 })
 
 describe('Turn', function () {
@@ -24,7 +24,7 @@ describe('Turn', function () {
   }); 
   
   it('should take a guess', function () {
-    expect(turn2.guess).to.equal('Goat')
+    expect(turn2.guess).to.equal('array')
   });
 
   it('should store a card', function () { 
@@ -32,7 +32,7 @@ describe('Turn', function () {
   });
 
   it('should return a guess', function () {  
-    expect(turn2.returnGuess()).to.equal('Goat')
+    expect(turn2.returnGuess()).to.equal('array')
   });
 
   it('should return a card', function () {
