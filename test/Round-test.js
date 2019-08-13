@@ -40,22 +40,22 @@ describe('Round', function() {
 
   it('should store an incorrect Answer', function () {
     expect(round.incorrectAnswers).to.deep.equal([]);
-    expect(round.takeTurn('capybara')).to.deep.equal('Sorry, that was incorrect.');
+    expect(round.takeTurn('capybara')).to.deep.equal('incorrect.');
     expect(round.incorrectAnswers.length).to.equal(1);
     expect(round.incorrectAnswers[0]).to.equal(1);
   });
 
   it('should change cards after a answer is given', function () {
-    expect(round.takeTurn('capybara')).to.deep.equal('Sorry, that was incorrect.');
-    expect(round.takeTurn('gallbladder')).to.deep.equal('Correct!');
-  });
+    expect(round.takeTurn('capybara')).to.deep.equal('incorrect.');
+    expect(round.takeTurn('gallbladder')).to.deep.equal('correct!');
+  }); 
 
-  it.only('should give a percentage of correct answers for a round', function () {
+  it('should give a percentage of correct answers for a round', function () {
  
     round.takeTurn('capybara')
     round.takeTurn('gallbladder')
     round.takeTurn('listening to music')
-    round.calculatePercentCorrect();
+    // round.calculatePercentCorrect();
   
     expect(round.calculatePercentCorrect()).to.equal(33)
   });

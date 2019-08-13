@@ -45,7 +45,7 @@ describe('Turn', function () {
   });
 
   it('if the correct answer is guessed then it should give you feedback', function () {
-    expect(turn1.giveFeedback()).to.equal('Correct!');
-    expect(turn2.giveFeedback()).to.equal('Sorry, that was incorrect.');
+    expect(turn1.giveFeedback()).to.equal('correct!');
+    expect(turn2.giveFeedback()).to.equal('incorrect.');
   });
 });
