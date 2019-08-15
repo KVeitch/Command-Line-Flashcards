@@ -1,12 +1,13 @@
-const Card = require('../src/Card');
 const Turn = require('../src/Turn');
-const Deck = require('../src/Deck');
+const data = require('./data');
+const prototypeQuestions = data.prototypeData;
 
 class Round {
-  constructor(deck) {
+  constructor(deck, game) {
     this.deck = deck;
     this.turns = 0;
     this.incorrectAnswers = [];
+    this.game = game;
   }
 
   returnCurrentCard() {
