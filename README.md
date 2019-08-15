@@ -1,5 +1,17 @@
-# FlashCards Starter Kit
+# Command Line FlashCards
 
+<details><summary>.gif of program functionality</summary>
+
+![](https://i.imgur.com/Cvjl6hd.gif)
+
+</details>
+
+<details><summary> here</summary>
+
+
+
+</details>
+ 
 ## Fork This Repo
 
 On the top right corner of this page, click the **Fork** button.
