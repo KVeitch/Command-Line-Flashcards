@@ -2,7 +2,7 @@
 
 <details><summary>.gif of program functionality</summary>
 
-![](https://i.imgur.com/Cvjl6hd.gif)
+![](i.imgur.com/Cvjl6hd.gif)
 
 </details>
 
