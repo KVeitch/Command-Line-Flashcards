@@ -1,7 +1,7 @@
 # Command Line FlashCards
 
 
-![] (i.imgur.com/Cvjl6hd.gif)
+[](i.imgur.com/Cvjl6hd.gif)
 
 
 <details><summary>.gif of program functionality</summary>
