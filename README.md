@@ -1,7 +1,7 @@
 # Command Line FlashCards
 
 
-Turing School of Software and Design
+Turing School of Software and Design  
 Module 2 Solo Project written in JavaScript
 
 Command-Line-Flashcards is a project implementing Object Oriented Programming and Test Driven Design. Command-Line-Flashcards currently has a deck of 30 cards with multiple choice questions about JavaScript array prototype methods. 
@@ -22,8 +22,8 @@ Once you have cloned the repo, change into the directory and install the library
 ```bash
 npm install
 ```
-Start the game but entering the following into your command line.
+Start the game by entering the following into your command line.
 
 ```bash
-npm index.js
+node index.js
 ```
